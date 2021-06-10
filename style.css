@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #f09e9e;
+}
+
+.container{
+    background-color: #ff6600;
+    width: 500px;
+    height: 750px;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    position: relative;
+    
+    
+    
+}
+
+img{
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 30%;
+    border-radius: 30%;
+    background-color: inherit;
+    float:left;
+    
+}
+.texto{
+    
+    padding: 20px;
+    float: left;
+    position: absolute;
+    top:0;
+    right:0;
+    color: white;
+    background-color: inherit;
+   
+}
+h1{
+ 
+    font-size: 25px;
+    background-color: #ff6600;
+    
+}
+p{
+    padding-top: 5px;
+    background-color: #ff6600;
+    text-align: right;
+}
+
+#atleta{
+    width: 600px;
+    height: 450px;
+    position: absolute;
+    left: -100px;
+    bottom: 0px;
+    opacity: 0.05;
+}
+
+#face{
+    position: absolute;
+    transform: scale(0.45);
+    left: 20px;
+    bottom: 5px;
+}
+
+#insta{
+    position: absolute;
+    transform: scale(0.6);
+    left: 120px;
+    bottom: 5px;
+}
+#twitter{
+    position: absolute;
+    transform: scale(0.45);
+    left: 220px;
+    bottom: 5px;
+}
+#whats{
+    position: absolute;
+    transform: scale(0.5);
+    left: 320px;
+    bottom: 5px;
+}
