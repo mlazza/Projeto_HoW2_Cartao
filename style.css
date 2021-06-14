@@ -67,7 +67,7 @@ p{
 
 #insta{
     position: absolute;
-    transform: scale(0.6);
+    transform: scale(0.55);
     left: 120px;
     bottom: 5px;
 }
@@ -82,4 +82,14 @@ p{
     transform: scale(0.5);
     left: 320px;
     bottom: 5px;
+}
+
+
+/*LINKS*/
+a{
+    background-color: inherit;
+}
+
+a:hover{
+    background-color: #f09457;
 }
