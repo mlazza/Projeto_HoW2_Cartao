@@ -11,10 +11,7 @@
     margin: auto;
     margin-top: 50px;
     box-sizing: border-box;
-    position: relative;
-    
-    
-    
+    position: relative;   
 }
 
 img{
@@ -24,10 +21,9 @@ img{
     border-radius: 30%;
     background-color: inherit;
     float:left;
-    
 }
+
 .texto{
-    
     padding: 20px;
     float: left;
     position: absolute;
@@ -35,28 +31,56 @@ img{
     right:0;
     color: white;
     background-color: inherit;
-   
 }
+
 h1{
- 
     font-size: 25px;
-    background-color: #ff6600;
-    
+    background-color: #ff6600;  
 }
+
 p{
     padding-top: 5px;
     background-color: #ff6600;
-    text-align: right;
+    text-align: center;
 }
 
-#atleta{
-    width: 600px;
+#calculadora{
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    position: relative;
+    top: 300px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #ff6600;
+    color: white;
+         
+}
+h2{
+    background-color: #ff6600;
+}
+
+form {
+    background-color: #ff6600;
+}
+
+form input{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    background-color: azure;
+}
+
+#frutas{
+    width: 450px;
     height: 450px;
     position: absolute;
-    left: -100px;
-    bottom: 0px;
-    opacity: 0.05;
+    bottom: 0;
+    left: 12px;
+    opacity: none;
 }
+
 
 #face{
     position: absolute;
@@ -71,18 +95,21 @@ p{
     left: 120px;
     bottom: 5px;
 }
+
 #twitter{
     position: absolute;
     transform: scale(0.45);
     left: 220px;
     bottom: 5px;
 }
+
 #whats{
     position: absolute;
     transform: scale(0.5);
     left: 320px;
     bottom: 5px;
 }
+
 
 
 /*LINKS*/
