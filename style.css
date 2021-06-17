@@ -47,12 +47,14 @@ p{
 #calculadora{
     width: 400px;
     height: 50px;
-    margin: auto;
-    position: relative;
+    border: 2px solid;
+    margin-top: 30px;
+    margin-left: 40px;
+    position: absolute;
     top: 300px;
     text-align: center;
     font-size: 12px;
-    background-color: #ff6600;
+    background-color: #887e77;
     color: white;
          
 }
@@ -65,13 +67,22 @@ form {
 }
 
 form input{
-    margin: 5px;
+    margin-top: 15px;
     padding: 10px;
     text-align: center;
     font-size: 14px;
     background-color: azure;
 }
 
+#botao{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #cfc0aa;
+}
+#botao:hover{
+    background-color: #cfcecc;
+}
 #frutas{
     width: 450px;
     height: 450px;

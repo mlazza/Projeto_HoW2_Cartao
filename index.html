@@ -7,6 +7,7 @@
     <title>Nutricionista Gabriela Silva</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -25,8 +26,9 @@
                 <form>
                     <input id="peso" type="number" placeholder="Peso em kg (ex: 75">
                     <input id="altura" type="number" placeholder="Altura em cm (Ex: 180)"> <br />
-                    <input type="submit" value="CALCULAR">
+                    <button id="botao" onclick="calcular();">CALCULAR</button>
                 </form>
+                <p id="result">Resultado...</p>
             </div>
                 
             
