@@ -65,11 +65,11 @@ h2{
     background-color: #ff6600;
 }
 
-form {
+.form {
     background-color: #ff6600;
 }
 
-form input{
+.form input{
     margin-top: 15px;
     padding: 10px;
     text-align: center;

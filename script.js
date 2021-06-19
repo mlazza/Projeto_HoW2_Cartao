@@ -9,7 +9,7 @@ function calcular() {
       
     if (calculo >= 25)
         resultado = "Você está acima do peso. Procure uma nutricionista para regularizar o seu peso.";
-    else if (calculo < 25)
+    else if (calculo < 25 && calculo >= 20)
         resultado = "Você está bem, mas pode ser uma boa consultar a nutricionista para ver alguns outros exames.";
     else if (calculo < 20)
         resultado = "Você está com baixo peso. É recomendado que faça uma reeducação alimentar";
