@@ -37,3 +37,21 @@ function calcular() {
     document.getElementById("result").innerHTML = resultado;
  
 }
+
+// atualizando peso e altura no texto
+
+function updatePesoInput(val) {
+    document.getElementById('pesoInput').value=val; 
+  }
+
+
+function slider2(){
+    var slider = document.getElementById("altura");
+    var output = document.getElementById("textAltura");
+    output.innerHTML = slider.value;
+
+    slider.oninput = function() {
+    output.innerHTML = this.value;
+    }
+
+}

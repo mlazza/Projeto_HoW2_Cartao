@@ -22,11 +22,20 @@
         <div id="calculadora">
             <h2>Teste o seu índice de massa corporal:</h2>
 
-            <a href="index2.html">
-                <div id="entrar_imc">
-                    CALCULE O SEU IMC
-                </div>
-            </a>    
+            <div class="form">
+                <div class="slidecontainer">
+                    
+                    <input type="range" min="0" max="200" class="slider" id="peso" onchange="slider();">
+                    <p>Valor: <span id="textPeso"></span></p>
+                                        
+                    <input type="range" min="1" max="100" value="50" class="slider" id="altura" onchange="slider2();">
+                    <p>Value: <span id="textAltura"></span></p>
+                    
+                    <button id="botao" onclick="calcular();">CALCULAR</button>
+                
+                <p id="result">Resultado...</p>
+            </div>
+                
             
         </div>
         
