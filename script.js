@@ -31,18 +31,18 @@ function calcular() {
     
     let peso = parseFloat(v1);
     let altura = parseFloat(v2);
-    alert("peso é " + peso);
-    alert("altura é " + altura);
+    // alert("peso é " + peso);
+    // alert("altura é " + altura);
         
     let calculo = (peso / (altura * altura));
     
-    alert(calculo);
+    // alert(calculo);
     if (calculo >= 25)
-        resultado = "Você está acima do peso. Procure uma nutricionista para regularizar o seu peso.";
+        resultado = "Você está acima do peso. Entre em contato com nossas redes sociais e agende sua consulta!";
     else if (calculo < 25 && calculo >= 20)
-        resultado = "Você está bem, mas pode ser uma boa consultar a nutricionista para ver alguns outros exames.";
+        resultado = "Você está com o peso correto, mas pode ser uma boa ideia fazer uma consulta para uma avaliação mais completa. Agende uma consulta com a gente através de nossas redes sociais!";
     else if (calculo < 20)
-        resultado = "Você está com baixo peso. É recomendado que faça uma reeducação alimentar";
+        resultado = "Você está com baixo peso. Entre em contato com nossas redes sociais e agende sua consulta!";
     else
         resultado = "Algum erro aconteceu, digite os números novamente.";
 

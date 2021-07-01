@@ -18,24 +18,29 @@
             <p> CRN n. 123456 SC <br />
                 Especialista em fitoterapia nutricional. <br />
             </p>
+            <br /> <br /> <br />
+            <p><cite>
+                "Nutrição não é sobre <br />quanto de peso você <br /> perde, mas sobre o <br />quanto de vida <br />que você ganha!" 
+            </cite></p>
         </div>
         <div id="calculadora">
             <h2>Teste o seu índice de massa corporal:</h2>
 
             <div class="form">
                 <div class="slidecontainer">
-                    
-                    <input type="range" min="0" max="200" class="slider" id="peso" onchange="slider();">
-                    <p>PESO: <span id="textPeso"></span></p>
                                         
+                    <p class="valores">PESO: <span id="textPeso"></span></p>
+                    <input type="range" min="0" max="200" class="slider" id="peso" onchange="slider();">
+                    <br /><br />
+                    <p class="valores">ALTURA: <span id="textAltura"></span></p>
                     <input type="range" min="1" max="2.50" step="0.01" value="" class="slider" id="altura" onchange="slider2();">
-                    <p>ALTURA: <span id="textAltura"></span></p>
-                    
+                    <br /><br />
                     <button id="botao" onclick="calcular();">CALCULAR</button>
                 
-                    <p id="result">Resultado...</p>
+                   
             
                 </div>
+                <p id="result"></p>
             </div>    
             
         </div>
