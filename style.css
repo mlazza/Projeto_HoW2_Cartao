@@ -92,7 +92,7 @@ span:hover{
 }
 
 
-/* #entrar_imc{
+#entrar_imc{
     width: 150px;
     height: 20px;
     background-color: #ff6600;
@@ -100,11 +100,11 @@ span:hover{
     margin:auto;
     margin-top: 10px;
     font-size: 15px;    
-} */
+}
 
-/* #entrar_imc:hover{
+#entrar_imc:hover{
     background-color: rgb(241, 150, 117);
-} */
+}
 
 
 .form {
